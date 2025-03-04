@@ -1,0 +1,12 @@
+{
+  "name": "enterprise-ready-packs",
+  "version": "1.0.0",
+  "description": "Enterprise Ready Features for B2B SaaS companies",
+  "main": "convert.js",
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "dependencies": {
+    "marked": "^9.0.0"
+  }
+}
