@@ -307,21 +307,6 @@
             background: var(--gray-50);
         }
 
-        .sponsor-desktop {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .sponsor-text {
-            color: var(--gray-600);
-            font-weight: 500;
-            font-size: 1rem;
-        }
-
-        .sponsor-desktop img {
-            vertical-align: middle;
-        }
 
         .mobile-menu {
             display: none;
@@ -383,12 +368,6 @@
             display: flex;
         }
 
-        .sponsor-mobile {
-            padding-top: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
 
         /* Responsive styles */
         @media (max-width: 768px) {
@@ -402,8 +381,7 @@
                 margin-inline: 16px;
             }
 
-            .nav-desktop,
-            .sponsor-desktop {
+            .nav-desktop {
                 display: none;
             }
 
@@ -547,15 +525,6 @@
                             rel="noopener noreferrer">Blog</a>
                 </nav>
 
-                <!-- Desktop Sponsor -->
-                <div class="sponsor-desktop">
-                    <span class="sponsor-text">Sponsored by</span>
-                    <a href="https://ssojet.com/?utm_source=compile7&utm_medium=enterpriseready&utm_campaign=header" target="_blank" rel="noopener noreferrer">
-                        <img src="https://ssojet.com/images/logo-black.png" alt="SSOJet" title="SSOJet" width="114"
-                            height="32" />
-                    </a>
-                </div>
-
                 <!-- Mobile Menu Toggle -->
                 <div class="mobile-menu">
                     <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle" />
@@ -578,13 +547,6 @@
                             rel="noopener noreferrer">About</a>
                         <a href="https://compile7.org/decompile" class="nav-link" target="_blank"
                             rel="noopener noreferrer">Blog</a>
-                        <div class="sponsor-mobile">
-                            <span class="sponsor-text">Sponsored by</span>
-                            <a href="https://ssojet.com/" target="_blank" rel="noopener noreferrer">
-                                <img src="https://ssojet.com/images/logo-black.png" alt="SSOJet" title="SSOJet"
-                                    width="114" height="32" />
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1050,38 +1012,10 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-top">
-                <!-- Logo and Sponsor -->
-                <div class="footer-sponsor">
-                    <span class="sponsor-text">Sponsored by</span>
-                    <a href="https://ssojet.com/?utm_source=compile7&utm_medium=enterpriseready&utm_campaign=footer" target="_blank" rel="noopener noreferrer">
-                        <img src="https://ssojet.com/images/logo-black.png" alt="SSOJet" title="SSOJet" width="114"
-                            height="32" />
-                    </a>
-                </div>
-                <!-- Social Icons -->
-                <div class="footer-social">
-                    <a  aria-label="Github" target="_blank" rel="noopener noreferrer" href="https://github.com/Compile7/compile7.github.io" class="footer-social-link">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20   " height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"></path></svg>
-                    </a>
-                    <a href="https://www.linkedin.com/company/ssojet/" target="_blank" rel="noopener noreferrer"
-                        aria-label="LinkedIn" class="footer-social-link">
-                        <!-- LinkedIn SVG -->
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-                            <path
-                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                        </svg>
-                    </a>
-                    <a href="https://x.com/sso_jet" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
-                        class="footer-social-link">
-                        <!-- Twitter SVG -->
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-                            <path
-                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                        </svg>
-                    </a>
-                </div>
+               
+               
             </div>
-            <div class="footer-divider"></div>
+           
             <div class="footer-bottom">
                 <!-- Copyright -->
                 <div class="footer-copy">
