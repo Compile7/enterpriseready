@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-N6K3J23R');</script>
+    <!-- Google Consent Mode v2 defaults + Compile7 Consent Manager + GTM (loaded after page load) -->
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',personalization_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});
+(function(){try{var m=document.cookie.match(/(?:^|; )c7_consent=([^;]*)/);if(!m)return;var p=JSON.parse(decodeURIComponent(m[1]));var a=p.analytics?'granted':'denied',k=p.marketing?'granted':'denied';gtag('consent','update',{analytics_storage:a,personalization_storage:a,ad_storage:k,ad_user_data:k,ad_personalization:k});}catch(e){}})();
+window.Compile7Config={type:'opt-in',complianceMode:'gdpr',position:'bottom-right',googleConsentMode:true,cookie:{domain:'compile7.org'},content:{message:'We use analytics cookies to see which guides and tools help developers, so we can improve them. They are only set if you accept.',href:'https://compile7.org/privacy/',target:'_self'}};
+(function(w,d,i){var done=false;function load(){if(done)return;done=true;w.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});var j=d.createElement('script');j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;d.head.appendChild(j);}function idle(){if(w.requestIdleCallback){w.requestIdleCallback(load,{timeout:3000});}else{setTimeout(load,1);}}if(d.readyState==='complete'){idle();}else{w.addEventListener('load',idle);}})(window,document,'GTM-N6K3J23R');</script>
+    <script src="https://consent-manager.compile7.org/cookie-consent.js" defer></script>
     <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Primary Meta Tags -->
