@@ -1,4 +1,15 @@
-# Cloudflare Pages response headers
+# Cloudflare Pages response headers (Compile7 security baseline).
+# No inline scripts: the Consent Mode/GTM bootstrap is /c7-tags.js and page code is /main.js,
+# so script-src needs no 'unsafe-inline'.
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()
+  Cross-Origin-Opener-Policy: same-origin
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://consent-manager.compile7.org https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.google.com https://*.googletagmanager.com; frame-src https://www.googletagmanager.com; form-action 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+
 /site.webmanifest
   Content-Type: application/manifest+json
 
