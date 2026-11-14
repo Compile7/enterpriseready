@@ -11,42 +11,46 @@ window.Compile7Config={type:'opt-in',complianceMode:'gdpr',position:'bottom-righ
 (function(w,d,i){var done=false;function load(){if(done)return;done=true;w.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});var j=d.createElement('script');j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;d.head.appendChild(j);}function idle(){if(w.requestIdleCallback){w.requestIdleCallback(load,{timeout:3000});}else{setTimeout(load,1);}}if(d.readyState==='complete'){idle();}else{w.addEventListener('load',idle);}})(window,document,'GTM-N6K3J23R');</script>
     <script src="https://consent-manager.compile7.org/cookie-consent.js" defer></script>
     <!-- End Google Tag Manager -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#7c3aed">
 
     <!-- Primary Meta Tags -->
-    <title>Enterprise Ready Packs | Essential tools for enterprise businesses</title>
-    <meta name="title" content="Enterprise Ready Packs | Essential tools for enterprise businesses">
+    <title>Enterprise Ready Packs – Tools for Enterprise SaaS | Compile7</title>
     <meta name="description"
-        content="Comprehensive collection of essential features and tools that B2B SaaS companies need to implement to become truly enterprise-ready.">
+        content="Curated directory of vendors that make a B2B SaaS product enterprise-ready: SSO, RBAC, MFA, billing, analytics, security, monitoring and compliance.">
     <meta name="keywords"
         content="enterprise software, B2B SaaS, enterprise tools, product security, compliance, SSO, RBAC, feature management">
-    <meta name="author" content="Enterprise Ready Packs">
+    <meta name="author" content="Compile7">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://enterpriseready.compile7.org/">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml"
-        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232c3e50'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
-    <link rel="apple-touch-icon"
-        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232c3e50'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://enterprise-ready-packs.com/">
-    <meta property="og:title" content="Enterprise Ready Packs | Essential tools for enterprise businesses">
+    <meta property="og:site_name" content="Compile7">
+    <meta property="og:url" content="https://enterpriseready.compile7.org/">
+    <meta property="og:title" content="Enterprise Ready Packs – Tools for Enterprise SaaS | Compile7">
     <meta property="og:description"
-        content="Comprehensive collection of essential features and tools that B2B SaaS companies need to implement to become truly enterprise-ready.">
-    <meta property="og:image" content="https://enterprise-ready-packs.com/og-image.png">
+        content="Curated directory of vendors that make a B2B SaaS product enterprise-ready: SSO, RBAC, MFA, billing, analytics, security, monitoring and compliance.">
+    <meta property="og:image" content="https://enterpriseready.compile7.org/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Enterprise Ready Packs by Compile7">
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://enterprise-ready-packs.com/">
-    <meta property="twitter:title" content="Enterprise Ready Packs | Essential tools for enterprise businesses">
-    <meta property="twitter:description"
-        content="Comprehensive collection of essential features and tools that B2B SaaS companies need to implement to become truly enterprise-ready.">
-    <meta property="twitter:image" content="https://enterprise-ready-packs.com/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Enterprise Ready Packs – Tools for Enterprise SaaS | Compile7">
+    <meta name="twitter:description"
+        content="Curated directory of vendors that make a B2B SaaS product enterprise-ready: SSO, RBAC, MFA, billing, analytics, security, monitoring and compliance.">
+    <meta name="twitter:image" content="https://enterpriseready.compile7.org/og-image.png">
+    <meta name="twitter:image:alt" content="Enterprise Ready Packs by Compile7">
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://enterprise-ready-packs.com/">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://enterpriseready.compile7.org/#app","name":"Enterprise Ready Packs","url":"https://enterpriseready.compile7.org/","description":"Free curated directory of 160+ vendors and open-source projects, grouped into categories such as billing, role-based access control, SSO and team management, MFA, feature management, monitoring, product security, integrations, documentation, contract management, SDK generators and compliance certification, that B2B SaaS companies use to become enterprise-ready.","image":"https://enterpriseready.compile7.org/og-image.png","applicationCategory":"DeveloperApplication","operatingSystem":"Any","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://compile7.org/#organization"}},{"@type":"Organization","@id":"https://compile7.org/#organization","name":"Compile7","url":"https://compile7.org","logo":"https://compile7.org/icon-512.png"}]}</script>
 
     <style>
         /* Reset and base styles */
@@ -87,6 +91,12 @@ window.Compile7Config={type:'opt-in',complianceMode:'gdpr',position:'bottom-righ
             max-width: 600px;
             margin: 0 auto;
             color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 48px 16px 8px;
         }
 
         /* Grid layout */
@@ -565,6 +575,10 @@ window.Compile7Config={type:'opt-in',complianceMode:'gdpr',position:'bottom-righ
         </div>
     </header>
 
+    <section class="hero">
+        <h1 class="title">Enterprise Ready Packs</h1>
+        <p class="subtitle">Essential capabilities for B2B SaaS companies to become enterprise-ready.</p>
+    </section>
 
     <div class="grid-container">
         <div class="grid-item">
@@ -1031,7 +1045,7 @@ window.Compile7Config={type:'opt-in',complianceMode:'gdpr',position:'bottom-righ
             <div class="footer-bottom">
                 <!-- Copyright -->
                 <div class="footer-copy">
-                    © Copyright <span id="current-year"></span> Compile7
+                    © Copyright <span id="current-year"></span> Compile7 · <a href="https://compile7.org/">A Compile7 tool</a>
                 </div>
                 <!-- Footer Links -->
                 <nav class="footer-links">
@@ -1048,7 +1062,8 @@ window.Compile7Config={type:'opt-in',complianceMode:'gdpr',position:'bottom-righ
     <script>
     document.getElementById('current-year').textContent = new Date().getFullYear();
         // Simple form handling
-        document.getElementById('email-form').addEventListener('submit', function (e) {
+        // The sign-up form is commented out above; only wire it up when present.
+        document.getElementById('email-form')?.addEventListener('submit', function (e) {
             e.preventDefault();
             const email = e.target.querySelector('input[type="email"]').value;
 

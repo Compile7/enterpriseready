@@ -1,0 +1,27 @@
+# Enterprise Ready Packs
+
+> Free curated directory from Compile7 of vendors and open-source projects that B2B SaaS companies
+> use to add the capabilities enterprise customers expect. Each entry is a one-line description and
+> a link to the vendor. Free to browse, no sign-up.
+
+Categories on the page:
+
+- Product assortment (subscription billing and payments)
+- Role-based access control (authorization services and policy engines)
+- Team management and single sign-on (SSO, SAML, SCIM, identity platforms)
+- Reporting and analytics
+- Multi-factor authentication (MFA)
+- Feature management (feature flags)
+- SLA and support: application performance monitoring, external monitoring, customer success
+- Product security: ASPM, DAST and SAST, plus other security solutions
+- Integrations
+- Documentation
+- Contract life cycle management
+- SDK library generators
+- Compliance certification (compliance automation and GRC platforms)
+
+## Links
+
+- [Enterprise Ready Packs](https://enterpriseready.compile7.org/): the directory
+- [Compile7](https://compile7.org/): the Compile7 family of free developer tools
+- [Compile7 tools](https://compile7.org/tools/): all Compile7 tools
