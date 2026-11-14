@@ -1,0 +1,6 @@
+# Cloudflare Pages response headers
+/site.webmanifest
+  Content-Type: application/manifest+json
+
+/llms.txt
+  Content-Type: text/markdown; charset=utf-8
